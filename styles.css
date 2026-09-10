@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("/images/BoleslawiecRatusz.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    background: #011627;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 10px;
+    
+}
+
+#hero h2 {
+    background-color: #2EC4B6;
+    padding: 10px 8px;
+    border-radius: 10px;
+    color: #FDFFFC;
+    max-width: 400px;
+}
+
+#activities {
+    background-color: #2EC4B6;
+    margin: 0 auto;
+    color: #FDFFFC;
+}
+
+.roundedEl {
+    border-radius: 100%;
+    min-width: 100%;
+    max-height: 50%;
+}
+
+
+#activitiesEl {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-size: contain;
+    align-items: center;
+    padding: 0 40px 80px 40px;
+    font-size: 1.2em;
+}
+
+.boldEl {
+    font-weight: bold;
+    
+}
+
+#titleEl {
+    margin: 0;
+    padding: 50px 0;
+    font-size: 2em;
+}
+
+#guide {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    background: #E71D36;
+    color: #FDFFFC;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 10px solid #FF9F1C;
+}
+
+#guide p {
+    margin-left: 10px;
+}
+
+#imgAvatar {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.cardEl {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#guide:hover {
+    background-color: #F35E29;
+}
