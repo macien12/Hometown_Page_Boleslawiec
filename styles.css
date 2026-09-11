@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-position: center;
 }
 
 #hero h1 {
@@ -116,4 +117,8 @@ body {
 
 #guide:hover {
     background-color: #F35E29;
+}
+
+#guide {
+    max-height: 200px;
 }
