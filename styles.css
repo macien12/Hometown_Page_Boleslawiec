@@ -5,9 +5,7 @@ body {
     font-family: "Roboto Mono", monospace;
 }
 
-img {
-    width: 100px;
-}
+
 
 #hero {
     background-image: url("/images/BoleslawiecRatusz.jpg");
@@ -17,6 +15,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #hero h1 {
@@ -39,12 +38,16 @@ img {
     background-color: #2EC4B6;
     margin: 0 auto;
     color: #FDFFFC;
+    min-height: 400px;
+    padding-bottom: 40px;
 }
 
 .roundedEl {
     border-radius: 100%;
     min-width: 100%;
     max-height: 50%;
+    overflow: hidden;
+    width: 100px;
 }
 
 
@@ -56,10 +59,12 @@ img {
     align-items: center;
     padding: 0 40px 80px 40px;
     font-size: 1.2em;
+    align-items: stretch
 }
 
 .boldEl {
     font-weight: bold;
+    min-height: 4.5rem;
     
 }
 
@@ -89,14 +94,24 @@ img {
 }
 
 #imgAvatar {
-    width: 150px;
-    border-radius: 20px;
+    width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%; 
+  border: 3px solid #ffffff;
 }
 
 .cardEl {
     width: 200px;
     height: 300px;
     margin: 0 auto;
+    
+}
+
+.cardEl img {
+    height: 200px;
+    object-fit: cover;
 }
 
 #guide:hover {
